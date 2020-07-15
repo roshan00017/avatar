@@ -1,0 +1,57 @@
+body {
+width : 100% ;
+padding: auto;
+margin: 0;
+font-family: 'Fondamento', cursive;
+
+height : 100%;
+background-color: rgb(50, 97, 97);
+
+}
+h1{
+   color: lightgrey;
+   font-style: oblique;
+   margin: 30px;
+   padding-left: 200px;
+}
+
+.centerdiv
+{
+    width: 80%;
+    height:60% ;
+    padding: 30px;
+    margin: auto;
+    border: 5px solid rgb(255, 245, 245);
+    background-color: rgb(43, 161, 69);
+}
+.details
+{
+    margin: auto;
+    padding-left: 400PX;
+    font-size: 30;
+    
+}
+input[type=text]{
+    width :275;
+    height: 40;
+    background-color: rgb(16, 55, 82);
+    color: mintcream;
+    font-family: 'Fondamento', cursive;
+    font-size: 20;
+
+}
+  
+.imgdiv{
+    padding-left: 400px;
+    padding-top: 20px;
+    margin: 5px solid black;
+
+}
+.imgdiv button{
+    color:rgb(4, 113, 156);
+    width:275;
+    height:40;
+    background-color: mistyrose;
+    font-size: 20;
+    font-family: 'Fondamento', cursive;
+}

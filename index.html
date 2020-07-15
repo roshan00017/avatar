@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>
+        </title>
+       </head>
+        <link rel="stylesheet" type="text/css" href="style.css"> 
+        <link href="https://fonts.googleapis.com/css2?family=Fondamento&display=swap" rel="stylesheet">   </head>
+        <body>
+             <h1>WHAT DOES YOUR AVATAR LOOK LIKE IN PARALLEL WORLD ! </h1>
+                <div class="centerdiv">
+                    <div class="details">
+                        <label>INPUT YOUR NAME </label><br>
+                        <input type="text" name="" id="nameid">
+                    </div>
+                    <div class="imgdiv">
+                        <img src="img1.jpg" width="275" height="200" class="imgid">
+                        <br>
+                        <br>
+                        <br>
+                        
+                        <button>PUT YOUR MOUSE HERE </button>
+                    </div>
+                    
+                </div>
+             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+            <script>
+                $(document).ready(function(){
+                    $('button').click(function(){
+                        const name = $('#nameid').val();
+                        alert(name);
+                        $('.imgid').attr('src',`https://joeschmoe.io/api/v1/random
+                        ${name}`);
+                    });
+                });
+            </script>
+        </body>
+</html>
